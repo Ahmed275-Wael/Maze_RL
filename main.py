@@ -5,7 +5,7 @@ import policyiteration
 import time
 import valueiteration
 
-test_maze = maze.Maze(w=20, h=20, num_exits=2)
+test_maze = maze.Maze(w=4, h=4, num_exits=2)
 print("_____Policy Iteration_____")
 print("_____Iterations_____")
 start_time = time.time()
